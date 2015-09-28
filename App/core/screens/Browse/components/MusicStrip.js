@@ -1,7 +1,6 @@
 require('./MusicStrip.css')
 
 var React = require('react')
-var {Link} = require('react-router')
 
 var BigCard = require('./BigCard')
 
