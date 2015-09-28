@@ -1,0 +1,27 @@
+.playlist-list{
+  margin-top: 30px;
+}
+
+.col-time:before{
+  font-family: spoticon;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: bottom;
+  content: "\f153";
+  font-size: 20px;
+}
+
+.playlist-field-head{
+  border-bottom: 1px solid #222326;
+  padding-bottom: 5px;
+}
+
+.playlist-field{
+  padding-top: 10px;
+  border-bottom: 1px solid #222326;
+  padding-bottom: 10px;
+}

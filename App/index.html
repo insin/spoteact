@@ -2,34 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<title>Spotyngular</title>
-
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/styles/fonts.css">
-
-    <link rel="shortcut icon" href="assets/images/favicon.png" />
-
-    <script src="lib/traceur-runtime.js"></script>
-    <script src="node_modules/typescript/bin/typescript.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="lib/angular2.dev.js"></script>
-    <script src="lib/router.dev.js"></script>
+    <title>Spoteact</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png"/>
 </head>
 <body>
-	<spotyngular-app>Loading...</spotyngular-app>
-    <script>
-        System.config({
-            transpiler: "typescript",
-            typescriptOptions: {
-                emitDecoratorMetadata: true,
-                experimentalDecorators: true
-            }
-        });
-        System.paths = {
-            "spotyngular/*": "core/*.ts",
-        };
-        System.import('spotyngular/app');
-    </script>
+  <div id="app"></div>
+  <script src="/app.js"></script>
 </body>
 </html>

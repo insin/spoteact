@@ -1,36 +1,39 @@
 {
-  "name": "spotyngular",
+  "name": "spoteact",
   "version": "1.0.0",
-  "description": "Clone of Spotify using Angular 2",
-  "main": "index.js",
-  "scripts":{
+  "description": "React fork of iranreyes/spotyngular",
+  "scripts": {
     "json-server": "json-server database.json",
-    "browser-sync": "node server.js",
-    "start": "npm run json-server & npm run browser-sync"
+    "server": "node server.js",
+    "start": "npm run json-server & npm run server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iranreyes/spotyngular.git"
+    "url": "git+https://github.com/insin/spoteact.git"
   },
-  "keywords": [
-    "Angular",
-    "Angular2",
-    "Spotify"
-  ],
-  "author": "Iran Reyes -iranreyesfleitas@gmail.com-",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iranreyes/spotyngular/issues"
-  },
-  "homepage": "https://github.com/iranreyes/spotyngular#readme",
   "devDependencies": {
-    "browser-sync": "^2.8.2",
-    "connect-history-api-fallback": "^1.1.0",
-    "json-server": "^0.7.25"
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "babel-plugin-react-display-name": "^2.0.0",
+    "babel-plugin-react-html-attrs": "^1.0.0",
+    "babel-plugin-react-transform": "^1.1.1",
+    "css-loader": "^0.19.0",
+    "express": "^4.13.3",
+    "file-loader": "^0.8.4",
+    "json-server": "^0.7.25",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.1",
+    "redbox-react": "^1.1.1",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.2.1"
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
-    "systemjs": "0.17.1",
-    "typescript": "^1.5.3"
+    "react": "^0.13.3",
+    "react-router": "^1.0.0-rc1"
   }
 }
